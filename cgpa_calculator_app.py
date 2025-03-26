@@ -48,6 +48,9 @@ def calculate_cgpa():
         else:
             cgpa = total_point / total_credit
             st.success(f"Your CGPA is {cgpa:.2f}")
+    st.markdown("---")
+    st.markdown("<h3 style='text-align: center;'>🎓 Made by Muhammad Usman Khan 🎓</h3>", unsafe_allow_html=True)
+
 
 def main():
     calculate_cgpa()
