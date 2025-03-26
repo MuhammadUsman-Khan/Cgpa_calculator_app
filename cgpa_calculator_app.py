@@ -1,22 +1,26 @@
 import streamlit as st
 
 def get_grade_point(percentage):
-    if percentage >= 85:
+    if percentage >= 91:
         return 4.0
     elif percentage >= 80:
         return 3.7
     elif percentage >= 75:
         return 3.3
-    elif percentage >= 70:
+    elif percentage >= 71:
         return 3.0
-    elif percentage >= 65:
+    elif percentage >= 68:
         return 2.7
-    elif percentage >= 60:
+    elif percentage >= 64:
         return 2.3
-    elif percentage >= 55:
+    elif percentage >= 61:
         return 2.0
-    elif percentage >= 50:
+    elif percentage >= 58:
         return 1.7
+    elif percentage >= 54:
+        return 1.3
+    elif percentage >= 50:
+        return 1.0
     else:
         return 0.0
 
