@@ -25,6 +25,9 @@ def get_grade_point(percentage):
         return 0.0
   
 def calculate_cgpa():
+    st.set_page_config(page_title="Cgpa Calculator", layout="centered")
+
+    
     st.title("CGPA Calculator")
     total_point = 0
     total_credit = 0
