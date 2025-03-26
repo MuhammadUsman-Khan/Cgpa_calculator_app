@@ -23,7 +23,7 @@ def get_grade_point(percentage):
         return 1.0
     else:
         return 0.0
-
+  
 def calculate_cgpa():
     st.title("CGPA Calculator")
     total_point = 0
